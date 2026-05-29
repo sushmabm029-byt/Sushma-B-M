@@ -308,7 +308,7 @@ a:hover {
   border-top: 1px solid var(--line);
   padding: 40px 56px;
   display: grid;
-  grid-template-columns: 1.1fr 1.1fr 0.9fr auto;
+  grid-template-columns: 1.1fr 0.9fr auto;
   gap: 28px;
   align-items: start;
 }

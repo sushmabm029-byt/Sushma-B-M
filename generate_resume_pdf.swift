@@ -126,7 +126,7 @@ pdf.newPage()
 pdf.drawText("Sushma B M", attributes: attrs(size: 30, weight: .bold), after: 4)
 pdf.drawText("System Application Engineer / Business Execution Consultant", attributes: attrs(size: 12, weight: .bold), after: 6)
 
-let contact = "+91 9164139255  |  sushmabm.94@gmail.com  |  Bengaluru, India\nlinkedin.com/in/sushma-b-m-722b47188"
+let contact = "sushmabm.94@gmail.com  |  Bengaluru, India\nlinkedin.com/in/sushma-b-m-722b47188"
 pdf.drawText(contact, attributes: attrs(size: 9.8, color: muted), after: 13)
 
 context.setFillColor(accent.cgColor)
